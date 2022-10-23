@@ -9,8 +9,7 @@ class Solution:
                 if s[j] not in lst:
                     lst.append(s[j])
                     count += 1
-                    if count > maxCount:
-                        maxCount = count
+                    maxCount = max(maxCount, count)
                 else:
                     lst.clear()
                     break
