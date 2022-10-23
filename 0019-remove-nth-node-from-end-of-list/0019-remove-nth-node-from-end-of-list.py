@@ -16,8 +16,7 @@ class Solution:
         if n == count:
             head = head.next;
             return head;
-        if count == n-1:
-            return dummy.next.next        
+        
         
         counter = 0
         
